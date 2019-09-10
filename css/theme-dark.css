@@ -1,0 +1,34 @@
+body {
+    background-color: #111;
+    color:#f2f2f2;
+}
+.home-section {
+    background-color: #111;
+}
+.home-section:nth-of-type(2n) {
+    background-color: #333;
+}
+.section-heading h1 {
+    color:#fff;
+}
+#profile .portrait-title h2 {
+    color:#fff;
+}
+#profile .portrait-title h3 {
+    color:#ccc;
+}
+ul.ul-edu li .description p.institution {
+    color:#ccc;
+}
+.projects-section {
+    background-color: #444;
+}
+a, a:focus, a:hover, .article-title a {
+    color:#8742D8;
+}
+ul.share li a {
+    background-color:#8742D8;
+}
+#contact.home-section .fa-li {
+    color:#8742D8;
+}
