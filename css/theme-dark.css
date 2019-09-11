@@ -26,12 +26,13 @@ ul.ul-edu li .description p.institution {
 a, .article-title a {
     color:#F9F5D3;
 }
+ul.share li a{
+    background-color:#FF8040;
+}
 a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
     color:#FF8040;
 }
-ul.share li a {
-    background-color:#F9F5D3;
-}
+
 #contact.home-section .fa-li {
     color:rgb(168, 168, 161);
 }
