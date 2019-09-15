@@ -36,15 +36,17 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 #contact.home-section .fa-li {
     color:rgb(168, 168, 161);
 }
-
+.btn-toolbar .btn {
+    box-shadow: 0 0 2px 0 rgba(255,255,255,.4);
+}
 .btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
-    background-color: #2B2926 !important;
+    background-color: #444 !important;
 }
 .btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
-    background-color: #000 !important;
+    background-color: #333 !important;
 }
 .btn-primary, .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    background-color: #333 !important;
+    background-color: #444 !important;
 }
 .navbar-default {
     background:#2B2926;
