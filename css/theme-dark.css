@@ -40,7 +40,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
     box-shadow: 0 0 1px 0 rgba(255,255,255,.8);
 }
 .btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
-    background-color: #FF925E !important;
+    background-color: #FE6318 !important;
 }
 .btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
     background-color: #FE6318 !important;
