@@ -90,3 +90,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 .card .card-text p {
     color:#f1f1f1;
 }
+.form-control {
+    color:#fff;
+    background-color:#434759;
+}
