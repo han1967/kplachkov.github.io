@@ -65,3 +65,14 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem #FF8040;
 }
+.btn-primary, .btn-primary.active {
+    background: #FF8040;
+}
+.btn-outline-primary {
+    color: #FF8040;
+    border-color: #FF8040;
+}
+.btn-outline-primary:hover {
+    background-color: #FF8040;
+    border-color: #FF8040;
+}
