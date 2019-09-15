@@ -37,16 +37,16 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
     color:rgb(168, 168, 161);
 }
 .btn-toolbar .btn {
-    box-shadow: 0 0 2px 0 rgba(255,255,255,.4);
+    box-shadow: 0 0 1px 0 rgba(255,255,255,.8);
 }
 .btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
-    background-color: #444 !important;
+    background-color: #FF925E !important;
 }
 .btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
-    background-color: #333 !important;
+    background-color: #FE6318 !important;
 }
 .btn-primary, .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    background-color: #444 !important;
+    background-color: #FF8040 !important;
 }
 .navbar-default {
     background:#2B2926;
@@ -65,7 +65,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
     color:#FF8040;
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem #FF8040;
+    box-shadow: 0 0 0 0.2rem #FFB693;
 }
 .btn-primary, .btn-primary.active {
     background: #FF8040;
