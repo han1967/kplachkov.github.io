@@ -67,6 +67,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 .btn-primary, .btn-primary.active {
     background: #FF8040;
+    border-color: #fff;
 }
 .btn-outline-primary {
     color: #FF8040;
@@ -75,4 +76,15 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 .btn-outline-primary:hover {
     background-color: #FF8040;
     border-color: #FF8040;
+}
+.card {
+    background: #181A1B;
+    color: #f1f1f1;
+    border: 1px solid #555;
+}
+.card h4 a {
+    color:#fff;
+}
+.card .card-text p {
+    color:#f1f1f1;
 }
