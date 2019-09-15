@@ -41,9 +41,16 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 .btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
     background-color: #FE6318 !important;
+    box-shadow: 0 0 0 0.2rem #FFB693;
 }
 .btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
     background-color: #FE6318 !important;
+}
+.btn-toolbar .btn.btn-primary:hover {
+    z-index:0;
+}
+.btn-toolbar .btn.btn-primary.active:hover {
+    z-index:999;
 }
 .btn-primary, .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
     background-color: #FF8040 !important;
@@ -89,7 +96,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 .card h4 a {
     color:#fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: none;
 }
 .card h4 a:hover {
     color: #FF8040;
@@ -98,6 +105,9 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 .card .card-text p {
     color:#f1f1f1;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(254,99,24,.8);
 }
 .form-control {
     color:#fff;
