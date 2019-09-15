@@ -1,9 +1,9 @@
 body {
-    background-color: #111;
+    background-color: #2B2926;
     color:#f2f2f2;
 }
 .home-section {
-    background-color: #111;
+    background-color: #2B2926;
 }
 .home-section:nth-of-type(2n) {
     background-color: #333;
@@ -38,7 +38,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 
 .btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
-    background-color: #111 !important;
+    background-color: #2B2926 !important;
 }
 .btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
     background-color: #000 !important;
@@ -47,7 +47,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
     background-color: #333 !important;
 }
 .navbar-default {
-    background:#111;
+    background:#2B2926;
     color:#fff;
 }
 .navbar-default .navbar-brand {
@@ -58,4 +58,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 .navbar-default .navbar-nav>li>a {
     color:#fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover {
+    color:#FF8040;
 }
