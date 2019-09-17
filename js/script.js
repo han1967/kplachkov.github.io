@@ -135,21 +135,21 @@
     });
     $('#theme-change').change(function() {
         if ($(this).prop('checked')) {
-            $('#theme').attr('href', "/css/theme-light.css");
+            $('#theme').attr('href', "/css/theme-light.min.css");
             $.cookie('theme', 0, { expires: 7, path: '/' });
         }
         else {
-            $('#theme').attr('href', "/css/theme-dark.css");
+            $('#theme').attr('href', "/css/theme-dark.min.css");
             $.cookie('theme', 1, { expires: 7, path: '/' });
         }
     });
     if ($.cookie('theme')==null || $.cookie('theme')==0)
     {
-        $('#theme').attr('href', "/css/theme-light.css");
+        $('#theme').attr('href', "/css/theme-light.min.css");
         $('#theme-change').bootstrapToggle('on');
     }
     else {
-        $('#theme').attr('href', "/css/theme-dark.css");
+        $('#theme').attr('href', "/css/theme-dark.min.css");
         $('#theme-change').bootstrapToggle('off')
     }
 })(jQuery);
