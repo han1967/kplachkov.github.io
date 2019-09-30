@@ -915,3 +915,7 @@ div.alert a:hover{
     transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border-color:#0095eb
 }
+#theme-change {
+    width: 45px;
+    display: inline-block;
+}
