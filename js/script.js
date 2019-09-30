@@ -133,12 +133,14 @@
             resizeTimer = setTimeout(fixScrollspy, 200);
         });
     });
-    $('#theme-change').change(function() {
-        if ($(this).prop('checked')) {
+    $('#theme-change').click(function(e) {
+        e.preventDefault();
+        if ($(this).children(0).hasClass('fa-sun-o')) {
+            $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
             $('#theme').attr('href', "/css/theme-light.min.css");
             $.cookie('theme', 0, { expires: 7, path: '/' });
-        }
-        else {
+        } else {
+            $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
             $('#theme').attr('href', "/css/theme-dark.min.css");
             $.cookie('theme', 1, { expires: 7, path: '/' });
         }
@@ -146,10 +148,10 @@
     if ($.cookie('theme')==null || $.cookie('theme')==0)
     {
         $('#theme').attr('href', "/css/theme-light.min.css");
-        $('#theme-change').bootstrapToggle('on');
+        $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
     }
     else {
         $('#theme').attr('href', "/css/theme-dark.min.css");
-        $('#theme-change').bootstrapToggle('off')
+        $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
     }
 })(jQuery);
